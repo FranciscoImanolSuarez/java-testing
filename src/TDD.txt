@@ -1,0 +1,23 @@
+Las tres reglas del TDD
+1 - Solo escribiras codigo de Test hasta que falle
+2 - Solo escribiras codigo de produccion si es para pasar un test que falla
+3 - No escribiras mas codigo de produccion del necesario para pasar el test
+
+
+-------------------------------------------------------
+El Test Driven Development (TDD) o desarrollo guiado por test, creado por Kent Beck, consiste en escribir primero los test antes que las clases permitiéndote ver si el diseño de una clase es la adecuada.
+
+El ciclo del TDD
+-------------
+Red: escribe un test que falle.
+Green: escribe el código necesario para que pase el test.
+Refactor: mejora el código.
+--------------
+Red: Escribirás el mínimo de código test que falle.
+Green: Escribirás el mínimo de código de producción que pase el test.
+Refactor: sólo cuando los tests estén pasando.
+
+------------
+Algunas clases de pruebas terminan con la palabra Should en lugar de Test porque podemos entenderlas como frases cuando se leen en conjunto con los nombres de los métodos.
+
+Por ejemplo, la clase DateUtilLeapYearShould con su método return_true_when_year_is_divisible_by_400 pueden leerse como “Date utils leap year should return true when year is divisible by 400” o “Los utils para calcular el año bisiesto deben devuelven true cuando el año es divisible por 400”.
